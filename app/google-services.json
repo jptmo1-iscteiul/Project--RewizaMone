@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646209351076",
+    "project_id": "rewizamone-965ca",
+    "storage_bucket": "rewizamone-965ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646209351076:android:135c13bbef85a6ef7a2531",
+        "android_client_info": {
+          "package_name": "com.example.rewizamone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy1aNAJCYYC1KzJkljly1cH9dGHwneRak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+# =======================
+# Android / Android Studio
+# =======================
+
+# Pastas do Gradle
+.gradle/
+build/
+
+# Configuração local do SDK
+local.properties
+
+# Configurações do Android Studio
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Arquivos gerados
+captures/
+.externalNativeBuild/
+.cxx/
+
+# APKs
+*.apk
+*.ap_
+
+# Pastas geradas automaticamente
+bin/
+gen/
+out/
+
+# Keystore (nunca subir)
+*.jks
+*.keystore
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db

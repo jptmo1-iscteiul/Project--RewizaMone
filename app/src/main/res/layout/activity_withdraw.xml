@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Texto de Instrução para Email do PayPal -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter PayPal Email:"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo de entrada para o Email do PayPal -->
+    <EditText
+        android:id="@+id/paypalEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PayPal Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:background="@drawable/rounded_edittext_background" />
+
+    <!-- Texto de Instrução para o Valor do Saque -->
+    <TextView
+        android:id="@+id/withdrawalAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Withdrawal Amount:"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_below="@id/paypalEmailEditText"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo de entrada para o Valor do Saque -->
+    <EditText
+        android:id="@+id/withdrawalAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/withdrawalAmountText"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:background="@drawable/rounded_edittext_background" />
+
+    <!-- Botão de Confirmação de Saque -->
+    <Button
+        android:id="@+id/confirmWithdrawalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Withdrawal"
+        android:layout_below="@id/withdrawalAmountEditText"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        android:minHeight="48dp" />
+
+</RelativeLayout>

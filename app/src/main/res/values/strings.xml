@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RewizaMone</string>
+
+        <!-- Outras strings aqui -->
+        <string name="open">Open Navigation</string>
+        <string name="close">Close Navigation</string>
+
+
+</resources>
